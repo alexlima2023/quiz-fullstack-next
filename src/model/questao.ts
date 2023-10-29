@@ -29,4 +29,8 @@ export default class QuestaoModel {
   get acertou() {
     return this.#acertou;
   }
+
+  get respondida() {
+    return false;
+  }
 }
